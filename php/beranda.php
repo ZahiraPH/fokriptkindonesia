@@ -1,4 +1,4 @@
-<?php include 'Header.php'; ?>
+<?php include 'header.php'; ?>
 <link rel="stylesheet" href="../css/beranda.css">
 
 <main class="main-content">
@@ -8,8 +8,8 @@
                 <h1>SELAMAT DATANG di FOKRI CONNECT</h1>
                 <p>Platform digital resmi Forum Kerjasama Rohani Islam Perguruan Tinggi Kedinasan se-Indonesia</p>
                 <div class="hero-buttons">
-                    <a href="Profil.php" class="btn btn-primary">Tentang Kami</a>
-                    <a href="Berita.php" class="btn btn-secondary">Berita Terbaru</a>
+                    <a href="profil.php" class="btn btn-primary">Tentang Kami</a>
+                    <a href="berita.php" class="btn btn-secondary">Berita Terbaru</a>
                 </div>
             </div>
             <div class="hero-decoration">
@@ -117,8 +117,8 @@
                 <h2>Bergabunglah dengan FOKRI PTK</h2>
                 <p>Mari bersama-sama membangun generasi PTK yang beriman, cerdas, dan berkontribusi untuk umat dan bangsa</p>
                 <div class="cta-buttons">
-                    <a href="Profil.php" class="btn btn-primary">Pelajari Lebih Lanjut</a>
-                    <a href="Kegiatan.php" class="btn btn-outline">Lihat Kegiatan</a>
+                    <a href="profil.php" class="btn btn-primary">Pelajari Lebih Lanjut</a>
+                    <a href="kegiatan.php" class="btn btn-outline">Lihat Kegiatan</a>
                 </div>
             </div>
         </div>

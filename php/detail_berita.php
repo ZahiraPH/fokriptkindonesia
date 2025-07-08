@@ -1,5 +1,5 @@
 <?php 
-include 'Header.php';
+include 'header.php';
 include '../config/database.php';
 
 $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;

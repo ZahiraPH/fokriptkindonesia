@@ -1,5 +1,5 @@
 <?php 
-include 'Header.php';
+include 'header.php';
 include '../config/database.php';
 
 // Pagination
@@ -42,7 +42,7 @@ $stmt->execute();
 $dokumen = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
-<link rel="stylesheet" href="../css/Dokumen.css">
+<link rel="stylesheet" href="../css/dokumen.css">
 
 <main class="main-content">
     <section class="page-header">

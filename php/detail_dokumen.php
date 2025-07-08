@@ -1,11 +1,11 @@
 <?php 
-include 'Header.php';
+include 'header.php';
 include '../config/database.php';
 
 $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 
 if ($id <= 0) {
-    header('Location: Dokumen.php');
+    header('Location: dokumen.php');
     exit();
 }
 
@@ -21,11 +21,11 @@ try {
     $dokumen = $stmt->fetch(PDO::FETCH_ASSOC);
     
     if (!$dokumen) {
-        header('Location: Dokumen.php');
+        header('Location: dokumen.php');
         exit();
     }
 } catch (PDOException $e) {
-    header('Location: Dokumen.php');
+    header('Location: dokumen.php');
     exit();
 }
 
@@ -64,7 +64,7 @@ switch ($extension) {
             <nav class="breadcrumb">
                 <a href="beranda.php">Beranda</a>
                 <span class="separator">></span>
-                <a href="Dokumen.php">Dokumen</a>
+                <a href="dokumen.php">Dokumen</a>
                 <span class="separator">></span>
                 <span class="current"><?php echo htmlspecialchars($dokumen['judul']); ?></span>
             </nav>
@@ -112,7 +112,7 @@ switch ($extension) {
                 </div>
 
                 <div class="article-actions">
-                    <a href="Dokumen.php" class="btn-back">
+                    <a href="dokumen.php" class="btn-back">
                         <i class="fas fa-arrow-left"></i>
                         Kembali ke Dokumen
                     </a>

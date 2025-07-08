@@ -1,6 +1,6 @@
 <?php 
 // Include header dari folder yang sama
-include 'Header.php';
+include 'header.php';
 
 // Include database connection dari config
 include '../config/database.php';

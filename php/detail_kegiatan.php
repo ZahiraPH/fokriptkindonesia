@@ -1,11 +1,11 @@
 <?php 
-include 'Header.php';
+include 'header.php';
 include '../config/database.php';
 
 $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 
 if ($id <= 0) {
-    header('Location: Kegiatan.php');
+    header('Location: kegiatan.php');
     exit();
 }
 
@@ -21,11 +21,11 @@ try {
     $kegiatan = $stmt->fetch(PDO::FETCH_ASSOC);
     
     if (!$kegiatan) {
-        header('Location: Kegiatan.php');
+        header('Location: kegiatan.php');
         exit();
     }
 } catch (PDOException $e) {
-    header('Location: Kegiatan.php');
+    header('Location: kegiatan.php');
     exit();
 }
 ?>
@@ -38,7 +38,7 @@ try {
             <nav class="breadcrumb">
                 <a href="beranda.php">Beranda</a>
                 <span class="separator">></span>
-                <a href="Kegiatan.php">Kegiatan</a>
+                <a href="kegiatan.php">Kegiatan</a>
                 <span class="separator">></span>
                 <span class="current"><?php echo htmlspecialchars($kegiatan['judul']); ?></span>
             </nav>
@@ -123,7 +123,7 @@ try {
                 </div>
 
                 <div class="article-actions">
-                    <a href="Kegiatan.php" class="btn-back">
+                    <a href="kegiatan.php" class="btn-back">
                         <i class="fas fa-arrow-left"></i>
                         Kembali ke Kegiatan
                     </a>

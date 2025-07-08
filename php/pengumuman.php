@@ -1,5 +1,5 @@
 <?php 
-include 'Header.php';
+include 'header.php';
 include '../config/database.php';
 
 // Pagination

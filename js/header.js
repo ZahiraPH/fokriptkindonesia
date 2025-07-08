@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   navLinks.forEach((link) => {
     const href = link.getAttribute("href")
-    if (href === currentPage || (currentPage === "" && href === "Beranda.php")) {
+    if (href === currentPage || (currentPage === "" && href === "beranda.php")) {
       link.classList.add("active")
     }
   })

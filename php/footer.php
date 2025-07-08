@@ -13,12 +13,12 @@
                 <div class="footer-section">
                     <h4>Menu</h4>
                     <ul>
-                        <li><a href="Beranda.php">Beranda</a></li>
-                        <li><a href="Profil.php">Profil</a></li>
-                        <li><a href="Berita.php">Berita</a></li>
-                        <li><a href="Kegiatan.php">Kegiatan</a></li>
-                        <li><a href="Dokumen.php">Dokumen</a></li>
-                        <li><a href="Pengumuman.php">Pengumuman</a></li>
+                        <li><a href="beranda.php">Beranda</a></li>
+                        <li><a href="profil.php">Profil</a></li>
+                        <li><a href="berita.php">Berita</a></li>
+                        <li><a href="kegiatan.php">Kegiatan</a></li>
+                        <li><a href="dokumen.php">Dokumen</a></li>
+                        <li><a href="pengumuman.php">Pengumuman</a></li>
                     </ul>
                 </div>
                 
@@ -48,7 +48,7 @@
         </div>
     </footer>
     
-    <link rel="stylesheet" href="../css/Footer.css">
-    <script src="../js/Footer.js"></script>
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="../js/footer.js"></script>
 </body>
 </html>

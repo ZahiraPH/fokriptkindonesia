@@ -115,7 +115,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
                 
                 <div class="login-footer">
-                    <a href="Beranda.php" class="back-link">
+                    <a href="beranda.php" class="back-link">
                         <i class="fas fa-arrow-left"></i>
                         Kembali ke Website
                     </a>
