@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$dbname = 'projec15_fokri_ptk';
-$username = 'projec15_root';
-$password = '@kaesquare123';
+$dbname = 'fokri_ptk';
+$username = 'root';
+$password = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
